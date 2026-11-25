@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>المنتجات | فيانا Viana</title>
+  <meta name="description" content="تصفحي جميع إكسسوارات فيانا: مجوهرات، حقائب، ساعات وأساور بدرجات سماوي ناعم.">
+  <link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+
+<!-- ============ Header ============ -->
+<header class="site-header">
+  <div class="container header-inner">
+    <a href="index.html" class="logo">
+      <span class="logo-mark">V</span>
+      <span>فيانا <span class="v">Viana</span></span>
+    </a>
+
+    <nav class="nav" id="mainNav">
+      <a href="index.html">الرئيسية</a>
+      <a href="products.html" class="active">المنتجات</a>
+      <a href="contact.html">تواصل معنا</a>
+    </nav>
+
+    <div class="header-actions">
+      <button class="cart-btn" id="cartBtn" aria-label="سلة المشتريات">
+        <svg width="21" height="21" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><circle cx="9" cy="21" r="1"/><circle cx="20" cy="21" r="1"/><path d="M1 1h4l2.7 12.4a2 2 0 0 0 2 1.6h9.7a2 2 0 0 0 2-1.6L23 6H6"/></svg>
+        <span class="cart-count" id="cartCount">0</span>
+      </button>
+      <button class="menu-btn" id="menuBtn" aria-label="القائمة">
+        <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M3 6h18M3 12h18M3 18h18"/></svg>
+      </button>
+    </div>
+  </div>
+</header>
+
+<!-- ============ Page banner ============ -->
+<section class="page-banner">
+  <div class="container">
+    <h1>منتجات فيانا</h1>
+    <div class="breadcrumb">
+      <a href="index.html">الرئيسية</a><span>／</span><span>المنتجات</span>
+    </div>
+  </div>
+</section>
+
+<!-- ============ Products ============ -->
+<section class="section">
+  <div class="container">
+    <div class="section-head">
+      <span class="section-tag">مجموعتنا</span>
+      <h2>كل ما يُكمل إطلالتك</h2>
+      <p>تصفّحي مجموعة مختارة من الإكسسوارات بأسعار لطيفة وتصاميم تناسب الاستخدام اليومي والمناسبات.</p>
+    </div>
+
+    <div class="filters">
+      <button class="filter-btn active" data-filter="all">الكل</button>
+      <button class="filter-btn" data-filter="jewelry">مجوهرات</button>
+      <button class="filter-btn" data-filter="bags">حقائب</button>
+      <button class="filter-btn" data-filter="watches">ساعات</button>
+    </div>
+
+    <div class="products-grid" id="productsGrid">
+      <article class="product-card" data-category="jewelry">
+        <div class="product-img-wrap">
+          <img src="assets/product-necklace.jpg" alt="قلادة فيانا الذهبية">
+          <span class="badge">جديد</span>
+        </div>
+        <div class="product-body">
+          <span class="product-cat">مجوهرات</span>
+          <h3>قلادة فيانا الذهبية</h3>
+          <p>قلادة رقيقة بتصميم بسيط ولمعة ناعمة تناسب كل إطلالة.</p>
+          <div class="product-foot">
+            <span class="price">89 <small>ر.س</small></span>
+            <button class="add-btn" data-id="p1" data-name="قلادة فيانا الذهبية" data-price="89" data-image="assets/product-necklace.jpg"><span>＋</span> أضف للسلة</button>
+          </div>
+        </div>
+      </article>
+
+      <article class="product-card" data-category="jewelry">
+        <div class="product-img-wrap">
+          <img src="assets/product-earrings.jpg" alt="أقراط اللؤلؤ الكلاسيكية">
+          <span class="badge">الأكثر طلبًا</span>
+        </div>
+        <div class="product-body">
+          <span class="product-cat">مجوهرات</span>
+          <h3>أقراط اللؤلؤ الكلاسيكية</h3>
+          <p>لؤلؤة ناعمة بإطار ذهبي خفيف، خيار مثالي للهدايا.</p>
+          <div class="product-foot">
+            <span class="price">65 <small>ر.س</small></span>
+            <button class="add-btn" data-id="p2" data-name="أقراط اللؤلؤ الكلاسيكية" data-price="65" data-image="assets/product-earrings.jpg"><span>＋</span> أضف للسلة</button>
+          </div>
+        </div>
+      </article>
+
+      <article class="product-card" data-category="bags">
+        <div class="product-img-wrap">
+          <img src="assets/product-bag.jpg" alt="الحقيبة السماوية الصغيرة">
+          <span class="badge">محدود</span>
+        </div>
+        <div class="product-body">
+          <span class="product-cat">حقائب</span>
+          <h3>الحقيبة السماوية الصغيرة</h3>
+          <p>حقيبة أنيقة بدرجة سماوي فاتح، تتسع لأساسياتك اليومية.</p>
+          <div class="product-foot">
+            <span class="price">149 <small>ر.س</small></span>
+            <button class="add-btn" data-id="p3" data-name="الحقيبة السماوية الصغيرة" data-price="149" data-image="assets/product-bag.jpg"><span>＋</span> أضف للسلة</button>
+          </div>
+        </div>
+      </article>
+
+      <article class="product-card" data-category="watches">
+        <div class="product-img-wrap">
+          <img src="assets/product-watch.jpg" alt="ساعة فيانا الكلاسيكية">
+          <span class="badge">جديد</span>
+        </div>
+        <div class="product-body">
+          <span class="product-cat">ساعات</span>
+          <h3>ساعة فيانا الكلاسيكية</h3>
+          <p>ساعة أنيقة بقراءة واضحة وحزام مريح، تناسب كل الأوقات.</p>
+          <div class="product-foot">
+            <span class="price">129 <small>ر.س</small></span>
+            <button class="add-btn" data-id="p4" data-name="ساعة فيانا الكلاسيكية" data-price="129" data-image="assets/product-watch.jpg"><span>＋</span> أضف للسلة</button>
+          </div>
+        </div>
+      </article>
+
+      <article class="product-card" data-category="jewelry">
+        <div class="product-img-wrap">
+          <img src="assets/product-bracelet.jpg" alt="سوار فيانا اللامع">
+          <span class="badge">الأكثر طلبًا</span>
+        </div>
+        <div class="product-body">
+          <span class="product-cat">مجوهرات</span>
+          <h3>سوار فيانا اللامع</h3>
+          <p>سوار خفيف بلمسة ذهبية ناعمة، مثالي للترويج اليومي وللهدايا.</p>
+          <div class="product-foot">
+            <span class="price">75 <small>ر.س</small></span>
+            <button class="add-btn" data-id="p5" data-name="سوار فيانا اللامع" data-price="75" data-image="assets/product-bracelet.jpg"><span>＋</span> أضف للسلة</button>
+          </div>
+        </div>
+      </article>
+
+      <article class="product-card" data-category="bags">
+        <div class="product-img-wrap">
+          <img src="assets/hero-accessories.jpg" alt="طقم فيانا المميز">
+          <span class="badge">طقم كامل</span>
+        </div>
+        <div class="product-body">
+          <span class="product-cat">حقائب</span>
+          <h3>طقم فيانا المميز</h3>
+          <p>حقيبة مع قطع منسقة معها، اختيار سهل لهدية متكاملة.</p>
+          <div class="product-foot">
+            <span class="price">199 <small>ر.س</small></span>
+            <button class="add-btn" data-id="p6" data-name="طقم فيانا المميز" data-price="199" data-image="assets/hero-accessories.jpg"><span>＋</span> أضف للسلة</button>
+          </div>
+        </div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- ============ CTA ============ -->
+<section class="section" style="padding-top:0;">
+  <div class="container">
+    <div class="cta-band">
+      <h2>هل تبحثين عن هدية مميزة؟</h2>
+      <p>أخبرينا بالمناسبة وسنقترح عليكِ القطعة الأنسب مع تغليف مجاني.</p>
+      <a href="https://wa.me/966537543144?text=مرحبا%20فيانا%2C%20أبحث%20عن%20هدية%20مميزة" target="_blank" rel="noopener" class="btn btn-light">راسلينا على واتساب</a>
+    </div>
+  </div>
+</section>
+
+<!-- ============ Footer ============ -->
+<footer class="site-footer">
+  <div class="container footer-grid">
+    <div class="footer-col">
+      <a href="index.html" class="logo">
+        <span class="logo-mark">V</span>
+        <span>فيانا <span class="v">Viana</span></span>
+      </a>
+      <p style="margin-top:14px;">متجر إكسسوارات أنيقة بدرجات سماوي ناعم. قطع صغيرة تصنع إطلالة كبيرة.</p>
+    </div>
+    <div class="footer-col">
+      <h4>روابط سريعة</h4>
+      <ul>
+        <li><a href="index.html">الرئيسية</a></li>
+        <li><a href="products.html">المنتجات</a></li>
+        <li><a href="contact.html">تواصل معنا</a></li>
+      </ul>
+    </div>
+    <div class="footer-col">
+      <h4>خدماتنا</h4>
+      <ul>
+        <li>تغليف هدايا فاخر</li>
+        <li>توصيل سريع وموثوق</li>
+        <li>استشارة مجانية للاختيار</li>
+      </ul>
+    </div>
+    <div class="footer-col">
+      <h4>تواصل معنا</h4>
+      <ul>
+        <li>واتساب: <a href="https://wa.me/966537543144" target="_blank" rel="noopener" dir="ltr">0537543144</a></li>
+        <li>العنوان: الطائف، المملكة العربية السعودية</li>
+      </ul>
+    </div>
+  </div>
+  <div class="container footer-bottom">© 2026 فيانا Viana. جميع الحقوق محفوظة.</div>
+</footer>
+
+<!-- Floating WhatsApp -->
+<a href="https://wa.me/966537543144?text=مرحبا%20فيانا%2C%20أود%20الاستفسار%20عن%20المنتجات" class="wa-float" target="_blank" rel="noopener" aria-label="واتساب فيانا">
+  <svg width="28" height="28" viewBox="0 0 24 24" fill="currentColor"><path d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91c0 1.75.46 3.45 1.32 4.95L2 22l5.25-1.38a9.9 9.9 0 0 0 4.79 1.22h.01c5.46 0 9.91-4.45 9.91-9.91C21.96 6.45 17.5 2 12.04 2Zm5.8 14.05c-.24.68-1.4 1.31-1.93 1.36-.52.05-1.02.24-3.44-.72-2.9-1.15-4.74-4.11-4.88-4.3-.14-.19-1.16-1.55-1.16-2.95 0-1.4.73-2.09.99-2.38.26-.29.57-.36.76-.36.19 0 .38 0 .55.01.18.01.42-.07.65.5.24.58.82 2 .89 2.15.07.14.12.31.02.5-.09.19-.14.31-.28.48-.14.16-.29.36-.42.48-.14.14-.28.29-.12.57.16.28.7 1.16 1.51 1.88 1.04.93 1.92 1.22 2.2 1.36.28.14.44.12.61-.07.16-.19.7-.82.89-1.1.19-.28.38-.23.64-.14.26.09 1.66.78 1.94.92.28.14.47.21.54.33.07.12.07.68-.17 1.36Z"/></svg>
+</a>
+
+<!-- Cart drawer -->
+<div class="drawer-overlay" id="drawerOverlay"></div>
+<aside class="cart-drawer" id="cartDrawer" aria-label="سلة المشتريات">
+  <div class="drawer-head">
+    <h2>سلة المشتريات</h2>
+    <button class="close-btn" id="closeCart" aria-label="إغلاق">×</button>
+  </div>
+  <div class="cart-items" id="cartItems"></div>
+  <div class="drawer-foot">
+    <div class="total-row"><span>الإجمالي</span><span id="cartTotal">0 ر.س</span></div>
+    <button class="btn btn-wa btn-block" id="checkoutBtn">إتمام الطلب عبر واتساب</button>
+  </div>
+</aside>
+
+<div class="toast" id="toast">تمت إضافة المنتج إلى السلة ✓</div>
+
+<script src="assets/script.js"></script>
+</body>
+</html>
